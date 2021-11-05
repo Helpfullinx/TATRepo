@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8948f760-458b-4d7b-b570-e2ec67d13555" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TimeAfterTime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TimeAfterTime/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1636086413923</updated>
       <workItem from="1636086418148" duration="840000" />
-      <workItem from="1636127002811" duration="390000" />
+      <workItem from="1636120620152" duration="2568000" />
+      <workItem from="1636127342323" duration="4554000" />
     </task>
     <servers />
   </component>
