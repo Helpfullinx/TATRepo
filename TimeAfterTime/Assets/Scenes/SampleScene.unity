@@ -449,6 +449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31559bf4548f09a42bb768f275d86d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1064492947}
   moveSpeedHor: 50
-  moveSpeedVer: 0
+  jumpHeight: 10
+  groundCheckDis: 1
+  rb: {fileID: 1064492947}
+  _capsuleCollider2D: {fileID: 1064492948}
