@@ -17,7 +17,7 @@ public class PlayerMove : MonoBehaviour
     void FixedUpdate()
     {
         float moveAmountHor = Input.GetAxis("Horizontal") * moveSpeedHor * Time.deltaTime;
-        float moveAmountVer = Input.GetAxis("Vertical") * moveSpeedVer * Time.deltaTime;
+        float moveAmountVer = Input.GetAxis("Jump") * moveSpeedVer * Time.deltaTime;
         transform.Translate(moveAmountHor, moveAmountVer, 0f);
     }
 }
