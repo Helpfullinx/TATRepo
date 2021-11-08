@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 252444663}
   - component: {fileID: 252444662}
   - component: {fileID: 252444661}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 1064492948}
   - component: {fileID: 1064492947}
   - component: {fileID: 1064492951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &1064492948
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -451,6 +451,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeedHor: 50
   jumpHeight: 10
-  groundCheckDis: 1
+  groundCheckDis: 0.25
   rb: {fileID: 1064492947}
   _capsuleCollider2D: {fileID: 1064492948}

@@ -21,11 +21,12 @@ public class PlayerMove : MonoBehaviour
     {
         gameObject.GetComponent<Rigidbody2D>();
         gameObject.GetComponent<CapsuleCollider2D>();
+        LayerMask.GetMask("Ground");
     }
 
     private void Update()
     {
-        Debug.DrawRay(_capsuleCollider2D.bounds.min,Vector3.down * (_capsuleCollider2D.bounds.extents.y + groundCheckDis), Color.green);
+        Debug.DrawRay(new Vector3(_capsuleCollider2D.bounds.center.x,_capsuleCollider2D.bounds.min.y),Vector3.down * ( _capsuleCollider2D.bounds.extents.y + groundCheckDis), Color.green);
         Debug.Log(Grounded());
     }
 
@@ -39,7 +40,9 @@ public class PlayerMove : MonoBehaviour
 
     bool Grounded()
     {
-        RaycastHit2D hit = Physics2D.Raycast(_capsuleCollider2D.bounds.min,Vector2.down,_capsuleCollider2D.bounds.extents.y + groundCheckDis);
+        LayerMask groundMask = LayerMask.GetMask("Ground");
+        Vector2 playerBottom = new Vector2(_capsuleCollider2D.bounds.center.x,_capsuleCollider2D.bounds.min.y);
+        RaycastHit2D hit = Physics2D.Raycast(playerBottom,Vector2.down,_capsuleCollider2D.bounds.extents.y + groundCheckDis, groundMask);
         return hit;
     }
 }
