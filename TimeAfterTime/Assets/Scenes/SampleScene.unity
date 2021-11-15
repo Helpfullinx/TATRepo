@@ -150,7 +150,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 252444660}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2d7aedbde261e564281028ed8d320fce, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -226,11 +226,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252444660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
-  m_LocalScale: {x: 13.4163, y: 0.5, z: 1}
+  m_LocalPosition: {x: 24.7883, y: -3.4349, z: 0}
+  m_LocalScale: {x: 62.993553, y: -0.36975, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -308,11 +308,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.4999998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1064492950}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1064492946
@@ -365,7 +365,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1064492946}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 63018b45307bab84bbae04060a89f090, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -433,9 +433,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 519420032}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1064492951
 MonoBehaviour:
@@ -449,8 +450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31559bf4548f09a42bb768f275d86d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeedHor: 50
-  jumpHeight: 10
-  groundCheckDis: 0.25
-  rb: {fileID: 1064492947}
-  _capsuleCollider2D: {fileID: 1064492948}
+  moveSpeedHor: 25
+  jumpHeight: 5
+  groundCheckDis: 0.05
