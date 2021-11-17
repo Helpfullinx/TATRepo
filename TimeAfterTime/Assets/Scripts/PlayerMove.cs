@@ -15,7 +15,7 @@ public class PlayerMove : MonoBehaviour
     
     private float moveAmountVer = 0f;
     private float moveAmountHor = 0f;
-    private Rigidbody2D rb;
+    public static Rigidbody2D rb;
     private CapsuleCollider2D _capsuleCollider2D;
 
     // Start is called before the first frame update
@@ -29,11 +29,7 @@ public class PlayerMove : MonoBehaviour
     private void Update()
     {
         Debug.DrawRay(new Vector3(_capsuleCollider2D.bounds.center.x,_capsuleCollider2D.bounds.min.y),Vector3.down * (groundCheckDis), Color.green);
-        /*
-        Debug.Log(Grounded());
-        */
-        Debug.Log(Input.GetKey(KeyCode.Space));
-        
+
         if (Grounded() & Input.GetKey(KeyCode.Space))
         {
             moveAmountVer = jumpHeight;
@@ -52,7 +48,7 @@ public class PlayerMove : MonoBehaviour
         rb.velocity = new Vector2(moveAmountHor, moveAmountVer);
     }
 
-    bool Grounded()
+    private bool Grounded()
     {
         LayerMask groundMask = LayerMask.GetMask("Ground");
         Vector2 playerBottom = new Vector2(_capsuleCollider2D.bounds.center.x,_capsuleCollider2D.bounds.min.y);
