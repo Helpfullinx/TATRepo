@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class CameraControllerTest : MonoBehaviour
 {
-    public Transform Player;
-    [SerializeField]public float dampTime = 0.4f;
-    private Vector3 _cameraPos;
+    [SerializeField] private Transform playerTransform;
+    [SerializeField] private Rigidbody2D playerRb;
+    [SerializeField] private float dampTime = 0.4f;
+    [SerializeField][Range(0f,1f)] private float vertOffsetAmount = 1;
+    [SerializeField][Range(0f, 1f)] private float horOffsetAmount = 1;
+    private Vector3 _playerPos;
     private Vector3 _velocity = Vector3.zero;
+    private Vector3 _playerVelocity;
     //Vector3.zero is shorthand for Vector3(0, 0, 0)
 
-    void Update()
+    void FixedUpdate()
     {
-        _cameraPos = new Vector3(Player.position.x, Player.position.y, -10f);
+        _playerPos = new Vector3(playerTransform.position.x, playerTransform.position.y, -10f);
+        _playerVelocity = new Vector3(playerRb.velocity.x * horOffsetAmount, playerRb.velocity.y * vertOffsetAmount, 0);
+        
+        Debug.DrawLine(gameObject.transform.position, _playerPos + _playerVelocity, Color.green);
+        
         /*
          *So basically, it smoothly follows starting at it's current position to whatever the players position is constantly
          *Which makes it look like it's following the player, but really it's just changing the SmoothDamo
@@ -20,6 +28,6 @@ public class CameraControllerTest : MonoBehaviour
          *I haven't figured out how to make it go past the player and give a view
          *of what's ahead yet
          */
-        transform.position =  Vector3.SmoothDamp(gameObject.transform.position, _cameraPos, ref _velocity, dampTime);
+        transform.position =  Vector3.SmoothDamp(gameObject.transform.position , _playerPos + _playerVelocity, ref _velocity, dampTime);
     }
 }
