@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!50 &126676724 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5820583930938395625, guid: 2cafd0d13b19b414887ff8372541213a, type: 3}
+  m_PrefabInstance: {fileID: 5820583931318948986}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &252444660
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,8 +273,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dcc4bdbb89fedc4eb6170245830d122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1150273173}
+  playerTransform: {fileID: 1150273173}
+  playerRb: {fileID: 126676724}
   dampTime: 0.4
+  vertOffsetAmount: 1
+  horOffsetAmount: 1
 --- !u!81 &1282514138
 AudioListener:
   m_ObjectHideFlags: 0
