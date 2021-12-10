@@ -1,3 +1,5 @@
+using Bolt;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 
@@ -6,8 +8,10 @@ public class PlayerMove : MonoBehaviour
 {
     [SerializeField] private float moveSpeedHor = 50f;
     [SerializeField] private float jumpHeight = 10f;
-    [SerializeField] private float groundCheckDis = 1f;
+    [SerializeField] private Vector2 groundCheckCenter = new Vector2(0f,-.5f);
+    [SerializeField] private Vector2 groundCheckCapsuleSize = new Vector2(1.1f,1.1f);
     [SerializeField] private GameObject cameraParent;
+    [SerializeField] private LayerMask groundLayer;
     
     [SerializeField] [Range(0f,5f)] private float cameraParentOffset = 5f;
     
@@ -22,13 +26,13 @@ public class PlayerMove : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _capsuleCollider2D = GetComponent<CapsuleCollider2D>();
-        LayerMask.GetMask("Ground");
     }
     //Update is called once per frame
     private void Update()
     {
-        Debug.DrawRay(new Vector3(_capsuleCollider2D.bounds.center.x,_capsuleCollider2D.bounds.min.y),Vector3.down * (groundCheckDis), Color.green);
-
+        
+        Debug.Log(Grounded());
+        
         if (Grounded() & Input.GetKey(KeyCode.Space))
         {
             _moveAmount.y = jumpHeight;
@@ -63,9 +67,7 @@ public class PlayerMove : MonoBehaviour
     /// <returns>returns true if grounded</returns>
     private bool Grounded()
     {
-        LayerMask groundMask = LayerMask.GetMask("Ground");
-        Vector2 playerBottom = new Vector2(_capsuleCollider2D.bounds.center.x,_capsuleCollider2D.bounds.min.y);
-        RaycastHit2D hit = Physics2D.Raycast(playerBottom,Vector2.down, groundCheckDis, groundMask);
-        return hit;
+        RaycastHit2D hit = Physics2D.CapsuleCast(_rb.position + groundCheckCenter, groundCheckCapsuleSize, CapsuleDirection2D.Vertical, -90, Vector2.down, 0, groundLayer);
+        return hit.collider != null;
     }
 }
