@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,11 @@ public class CameraControllerTest : MonoBehaviour
     private Vector3 _velocity = Vector3.zero;
     private Vector3 _playerVelocity;
     //Vector3.zero is shorthand for Vector3(0, 0, 0)
+
+    private void Start()
+    {
+        
+    }
 
     void FixedUpdate()
     {
