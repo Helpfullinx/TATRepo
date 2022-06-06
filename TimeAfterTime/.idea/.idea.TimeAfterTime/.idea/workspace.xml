@@ -5,15 +5,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8948f760-458b-4d7b-b570-e2ec67d13555" name="Changes" comment="">
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TimeAfterTime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TimeAfterTime/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraControllerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraControllerTest.cs" afterDir="false" />
-=======
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Antlr3.Runtime.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Antlr3.Runtime.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.defines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.defines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.xml.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
->>>>>>> main
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraControllerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraControllerTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +105,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraControllerTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7273206767d421e83546c2b1e8d11691b800/01/c7559e5b/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="20U5dIsS0XKjfboo4fIyBhXjcTx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,7 +125,8 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -89,12 +174,9 @@
       <workItem from="1637174712713" duration="1817000" />
       <workItem from="1637181667766" duration="105000" />
       <workItem from="1637334061083" duration="2563000" />
-<<<<<<< HEAD
-=======
-      <workItem from="1637612343230" duration="2675000" />
-      <workItem from="1637615873179" duration="1299000" />
-      <workItem from="1637827654360" duration="7000" />
->>>>>>> main
+      <workItem from="1649109850974" duration="619000" />
+      <workItem from="1649282403416" duration="224000" />
+      <workItem from="1654543777941" duration="10157000" />
     </task>
     <servers />
   </component>
@@ -114,9 +196,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
