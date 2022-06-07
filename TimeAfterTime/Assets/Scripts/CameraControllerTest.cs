@@ -25,10 +25,10 @@ public class CameraControllerTest : MonoBehaviour
         _lastPos = transform.position;
         Vector2 playerRbPos = _playerRb.transform.position;
         
-        if (_playerRb.velocity.x < 0 && _facingDirection != Facing.Left) {
+        if (Input.GetAxisRaw("Horizontal") < 0 && _facingDirection != Facing.Left) {
             _facingDirection = Facing.Left;
         }
-        else if (_playerRb.velocity.x > 0 && _facingDirection != Facing.Right) {
+        else if (Input.GetAxisRaw("Horizontal") > 0 && _facingDirection != Facing.Right) {
             _facingDirection = Facing.Right;
         }
         
