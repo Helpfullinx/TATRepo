@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class CameraControllerTest : MonoBehaviour
 {
-    [SerializeField] private Transform cameraParentTransform;
     [SerializeField] private float dampTime = 0.4f;
     [SerializeField] [Range(0f, 1f)] private float playerMovementFactor = 1f;
     [SerializeField][Range(0f,1f)] private float vertOffsetScaler = 1;
     [SerializeField][Range(0f, 1f)] private float horOffsetScaler = 1;
-    [SerializeField] [Range(0f,5f)] private float cameraParentOffset = 5f;
+    [SerializeField] [Range(0f,5f)] private float cameraFacingOffset = 5f;
     private Rigidbody2D _playerRb;
     private Vector3 _velocity = Vector3.zero;
     private Vector2 _playerVelocity;
@@ -32,7 +31,7 @@ public class CameraControllerTest : MonoBehaviour
             _facingDirection = Facing.Right;
         }
         
-        _cameraTargetPos = new Vector2(playerRbPos.x + GetFacingFloatValue(_facingDirection) * cameraParentOffset, playerRbPos.y);
+        _cameraTargetPos = new Vector2(playerRbPos.x + GetFacingFloatValue(_facingDirection) * cameraFacingOffset, playerRbPos.y);
         _playerRb.transform.localScale = new Vector2(GetFacingFloatValue(_facingDirection),1);
         
         _playerVelocity = new Vector2(_playerRb.velocity.x * horOffsetScaler, _playerRb.velocity.y * vertOffsetScaler);
